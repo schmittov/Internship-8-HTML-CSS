@@ -84,3 +84,13 @@ section>p:nth-of-type(2){
 img{
     margin-bottom: 24px;
 } 
+
+
+footer>p{
+    color: white;
+    text-align: center;
+}
+footer>p:first-of-type{
+    margin-top: 8px;
+    margin-bottom: 16px;
+}

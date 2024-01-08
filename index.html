@@ -7,17 +7,17 @@
     <title>HTML ONLY</title>
 </head>
 <body>
-    <header>
+    <header class="mainHeader">
         <h1>HTML Only</h1>
     </header>
 
     <nav>
-        <ul>
-            <li>Navigation</li>
-            <ul>
-                <li>What is this?</li>
-                <li>How does this work?</li>
-                <li>But why?</li>
+        <ul class="navElementWrapper mainNavElementWrapper">
+            <li class="navElement navTitle">Navigation</li>
+            <ul class="navElementWrapper secondaryNavElementWrapper">
+                <li class="navElement navContent">What is this?</li>
+                <li class="navElement navContent">How does this work?</li>
+                <li class="navElement navContent">But why?</li>
             </ul>   
         </ul>
     </nav>
@@ -25,7 +25,7 @@
 
     <main>
         <section>
-            <header>
+            <header class="sectionHeader">
                 <h2>What is this?</h2>
             </header>
             <p>This page was inspired by a tweet from Salma . Pretty HTML only pages are difficult to make well, and accessible. But here we are. I'm trying my best.</p>
@@ -33,7 +33,7 @@
         <hr>
 
         <section>
-            <header>
+            <header class="sectionHeader">
                 <h2>How does this work?</h2>
             </header>
             <p>
@@ -58,7 +58,7 @@
         <hr>
 
         <section>
-            <header>
+            <header class="sectionHeader">
                 <h2>But why?</h2>
             </header>
             <img src="https://c.tenor.com/KjJTBQ9lftsAAAAd/why-huh.gif" alt="But why meme animation">

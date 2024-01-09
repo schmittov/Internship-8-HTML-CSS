@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
     <title>HTML ONLY</title>
 </head>
+
 <body>
     <header class="mainHeader">
         <h1>HTML Only</h1>
@@ -14,23 +16,25 @@
 
     <nav>
         <details>
-                <summary class="navElement navTitle">Navigation</summary>
-                <ul class="navElementWrapper secondaryNavElementWrapper">
-                    <li class="navElement navContent"><a href="#firstSection">What is this?</a></li>
-                    <li class="navElement navContent"><a href="#secondSection">How does this work?</a></li>
-                    <li class="navElement navContent"><a href="#thirdSection">But why?</a></li>
-                </ul>   
+            <summary class="navElement navTitle">Navigation</summary>
+            <ul class="navElementWrapper secondaryNavElementWrapper">
+                <li class="navElement navContent"><a href="#firstSection">What is this?</a></li>
+                <li class="navElement navContent"><a href="#secondSection">How does this work?</a></li>
+                <li class="navElement navContent"><a href="#thirdSection">But why?</a></li>
+            </ul>
         </details>
-        
+
     </nav>
     <hr>
 
     <main>
         <section id="firstSection">
-            <header class="sectionHeader" >
+            <header class="sectionHeader">
                 <h2>What is this?</h2>
             </header>
-            <p>This page was inspired by a <a href="https://twitter.com/whitep4nth3r/status/1510568114966171649">tweet from Salma</a> . Pretty HTML only pages are difficult to make well, and accessible. But here we are. I'm trying my best.</p>
+            <p>This page was inspired by a <a href="https://twitter.com/whitep4nth3r/status/1510568114966171649">tweet
+                    from Salma</a> . Pretty HTML only pages are difficult to make well, and accessible. But here we are.
+                I'm trying my best.</p>
         </section>
         <hr>
 
@@ -39,21 +43,26 @@
                 <h2>How does this work?</h2>
             </header>
             <p>
-                The key to a lot of this is leveraging using tables with a role="presentation" attribute to make decorated sections without css. 
-                If you view source on the page, you'll see that there are a LOT of tables. The table tag typically is used to display tabular data and should NOT be used as a layout method. 
-                However, since I am not allowed to use CSS, I am pretty much exclusively relying on tables for this purpose. 
-                The presentation role tells the browser to not expose the table and its tabluar children in the accessibility tree. 
+                The key to a lot of this is leveraging using tables with a role="presentation" attribute to make
+                decorated sections without css.
+                If you view source on the page, you'll see that there are a LOT of tables. The table tag typically is
+                used to display tabular data and should NOT be used as a layout method.
+                However, since I am not allowed to use CSS, I am pretty much exclusively relying on tables for this
+                purpose.
+                The presentation role tells the browser to not expose the table and its tabluar children in the
+                accessibility tree.
                 This will make it easier to navigate for assistive technology.
             </p>
 
             <p>
-                I'm also leveraging some deprecated HTML elements from HTML 3.2 that you should never use. 
-                In order to be "compliant", I've added the HTML 3.2 doctype at the top of the page: 
+                I'm also leveraging some deprecated HTML elements from HTML 3.2 that you should never use.
+                In order to be "compliant", I've added the HTML 3.2 doctype at the top of the page:
                 <br><code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"&gt;</code><br>
                 This helps give a hint to the browser that we are going to use some older stuff.
             </p>
             <p>
-                HOWEVER, I'm also using some newer things such as <code>details/summary, section, main, header,</code> and <code>footer</code>. 
+                HOWEVER, I'm also using some newer things such as <code>details/summary, section, main, header,</code>
+                and <code>footer</code>.
                 So I'm just making a mess of my doctype and what I should be actually using!
             </p>
         </section>
@@ -64,7 +73,8 @@
                 <h2>But why?</h2>
             </header>
             <img src="https://c.tenor.com/KjJTBQ9lftsAAAAd/why-huh.gif" alt="But why meme animation">
-            <p>I make terrible things. This was an exciting <a href="https://xkcd.com/356/">nerd snipe</a> on a sunday, And I took up the challenge!</p>
+            <p>I make terrible things. This was an exciting <a href="https://xkcd.com/356/">nerd snipe</a> on a sunday,
+                And I took up the challenge!</p>
         </section>
         <hr>
     </main>
@@ -74,5 +84,5 @@
         <p>(One marquee for good measure...)</p>
     </footer>
 </body>
-</html>
 
+</html>

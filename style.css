@@ -1,91 +1,110 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
 }
-body{
+
+body {
     background-color: black;
 }
-hr{
+
+hr {
     height: 2px;
     background-color: orange;
-    
+
     margin-top: 8px;
     margin-bottom: 8px;
 }
-h1,h2,p{
+
+h1,
+h2,
+p {
     font-family: Arial, sans-serif;
 }
 
-h1{
+h1 {
     font-size: xxx-large;
     margin-bottom: 0.67em;
 }
-.mainHeader{
+
+.mainHeader {
     text-align: center;
     color: white;
 }
-ul{
+
+ul {
     width: auto;
     margin: auto;
 }
-li{
+
+li {
     color: white;
-    width:fit-content;
+    width: fit-content;
     text-decoration: underline;
 }
-li>a, footer>p:first-of-type>a{
+
+li>a,
+footer>p:first-of-type>a {
     color: rgb(150, 79, 241);
 }
 
-h2{
+h2 {
     font-size: xx-large;
     margin-bottom: 24px;
 }
-.secondaryNavElementWrapper{
-    width:fit-content;
+
+.secondaryNavElementWrapper {
+    width: fit-content;
 }
-summary{
+
+summary {
     color: white;
     text-align: center;
 }
-summary:hover{
+
+summary:hover {
     cursor: pointer;
 }
 
 
 
-section{
+section {
     background-color: rgb(250, 235, 215);
     padding: 10px;
 }
-section:nth-of-type(1){
+
+section:nth-of-type(1) {
     border: 10px solid rgb(255, 0, 255);
 }
-section:nth-of-type(2){
+
+section:nth-of-type(2) {
     border: 10px solid rgb(0, 255, 255);
 }
-section:nth-of-type(3){
+
+section:nth-of-type(3) {
     border: 10px solid rgb(255, 140, 0);
 }
 
-section>p{
+section>p {
     font-size: x-large;
 }
-section>p:nth-of-type(2){
+
+section>p:nth-of-type(2) {
     margin-top: 24px;
     margin-bottom: 24px;
 }
-img{
+
+img {
     margin-bottom: 24px;
-} 
+}
 
 
-footer>p{
+footer>p {
     color: white;
     text-align: center;
 }
-footer>p:first-of-type{
+
+footer>p:first-of-type {
     margin-top: 8px;
     margin-bottom: 16px;
 }

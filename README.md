@@ -10,5 +10,5 @@ Homework for DUMP-internship
 ## Contact
 For extra info about chat: [Mario Mitov](mailto:mariomitov31@gmail.com).
 
-### Original web page
+## Original web page
     https://html-only.netlify.app/

@@ -9,3 +9,6 @@ Homework for DUMP-internship
     https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 ## Contact
 For extra info about chat: [Mario Mitov](mailto:mariomitov31@gmail.com).
+
+# Original web page
+    https://html-only.netlify.app/

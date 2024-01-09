@@ -26,7 +26,6 @@ h1{
     color: white;
 }
 ul{
-    list-style: none;
     width: auto;
     margin: auto;
 }
@@ -39,29 +38,17 @@ h2{
     font-size: xx-large;
     margin-bottom: 24px;
 }
-.navTitle{
-    margin: auto;
-}
 .secondaryNavElementWrapper{
     width:fit-content;
 }
-.secondaryNavElementWrapper,.navTitleShow{
-    display: none;
+summary{
+    color: white;
+    text-align: center;
+}
+summary:hover{
+    cursor: pointer;
 }
 
-.navTitle:hover  + .secondaryNavElementWrapper {
-    display: block;
-}
-.navTitle{
-    display: flex;
-}
-.triangle{
-    margin-right: 5px;
-    font-size: small;
-}
-.navTitle:hover .triangle{
-    transform: rotate(90deg);
-}
 
 
 section{

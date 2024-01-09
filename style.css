@@ -31,7 +31,11 @@ ul{
 }
 li{
     color: white;
-    width:fit-content
+    width:fit-content;
+    text-decoration: underline;
+}
+li>a, footer>p:first-of-type>a{
+    color: rgb(150, 79, 241);
 }
 
 h2{
